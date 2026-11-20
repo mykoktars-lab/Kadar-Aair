@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Extract project ZIP
-        run: unzip -o kadar-air-mie-pdf-share-fixed3.zip -x ".github/*" "*/.github/*"
+        run: unzip -o kadar-air-mie-pdf-share-fixed4.zip -x ".github/*" "*/.github/*"
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
