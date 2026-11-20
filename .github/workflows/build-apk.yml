@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract project ZIP
-        run: unzip -o kadar-air-mie-complete-project.zip -x ".github/*" "*/.github/*"
+        run: unzip -o kadar-air-mie-pdf-share-fixed.zip -x ".github/*" "*/.github/*"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
